@@ -18,6 +18,7 @@ import Footer from "../components/footer/Footer";
 function App() {
   return (
     <>
+      <Header/>
       <Routes>
         <Route exact path="/" element={<Main/>} />
         <Route exact path="/login" element={<Login/>} />
